@@ -1,4 +1,4 @@
-package com.fh.util;
+package com.ssz.util;
 
 import java.util.Collection;
 import java.util.HashMap;

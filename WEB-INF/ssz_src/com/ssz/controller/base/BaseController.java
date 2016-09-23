@@ -1,4 +1,4 @@
-package com.fh.controller.base;
+package com.ssz.controller.base;
 
 
 import javax.servlet.http.HttpServletRequest;
@@ -7,7 +7,7 @@ import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.fh.util.PageData;
+import com.ssz.util.PageData;
 
 public class BaseController {
 
