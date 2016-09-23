@@ -60,25 +60,30 @@
   <build>
     <finalName>testweb2</finalName>
     <!-- 源代码文件夹 -->
-    <sourceDirectory>E:\workspace\testweb2\src\main\java</sourceDirectory>
+    <sourceDirectory>E:\workspace\testweb2\WEB-INF\ssz_src</sourceDirectory>
     <!-- 脚本 -->
-    <scriptSourceDirectory>E:\workspace\testweb2\src\main\scripts</scriptSourceDirectory>
+    <scriptSourceDirectory>E:\workspace\testweb2\web</scriptSourceDirectory>
     <!-- 测试代码 -->
-    <testSourceDirectory>E:\workspace\testweb2\src\test\java</testSourceDirectory>
+    <testSourceDirectory>E:\workspace\testweb2\WEB-INF\ssz_t_src</testSourceDirectory>
     <!-- 编译后输出的目录 -->
-    <outputDirectory>E:\workspace\testweb2\target\classes</outputDirectory>
-    
-    <testOutputDirectory>E:\workspace\testweb2\target\test-classes</testOutputDirectory>
+    <outputDirectory>E:\workspace\testweb2\WEB-INF\classes</outputDirectory>
+    <!-- 测试代码编译输出目录 -->
+    <testOutputDirectory>E:\workspace\testweb2\WEB-INF\test-classes</testOutputDirectory>
+    <!-- 资源文件夹，可配置多个 -->
     <resources>
       <resource>
-        <directory>E:\workspace\testweb2\src\main\resources</directory>
+        <directory>E:\workspace\testweb2\WEB-INF\ssz_source</directory>
       </resource>
     </resources>
+    <!-- 测试资源目录 -->
     <testResources>
       <testResource>
-        <directory>E:\workspace\testweb2\src\test\resources</directory>
+        <directory>E:\workspace\testweb2\WEB-INF\ssz_t_source</directory>
       </testResource>
     </testResources>
+    
+    <directory>E:\workspace\testweb2\target</directory>
+    
   </build>
   
 </project>
